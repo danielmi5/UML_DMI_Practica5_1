@@ -12,13 +12,13 @@ Atributo:
 Método:
 ##### Curso
 Tiene como atributos:
--Nombre: Es una cadena y contiene el nombre del curso.
--Codigo: Es una cadena y contiene el código del curso.
--estudiantes: Es una lista mutable y contiene los estudiantes que pertenecen a ese curso.
+- Nombre: Es una cadena y contiene el nombre del curso.
+- Codigo: Es una cadena y contiene el código del curso.
+- estudiantes: Es una lista mutable y contiene los estudiantes que pertenecen a ese curso.
 
 Tiene como métodos:
--agregarAlumno(estudiante): Se encarga de añadir un estudiante al curso, "estudiante" es un objeto de la clase Estudiante que representa al estudiante.
--mostrarEstudiantes(): Muestra la lista con los estudiantes
+- agregarAlumno(estudiante): Se encarga de añadir un estudiante al curso, "estudiante" es un objeto de la clase Estudiante que representa al estudiante.
+- mostrarEstudiantes(): Muestra la lista con los estudiantes
 
 c) Significado del método agregarAlumno(). Funcionamiento. 
 Este metodo se encarga de añadir a los estudiantes al curso. Mediante un parametro de tipo objeto (de la clase Estudiante), este lo agrega a la lista mutable (estudiantes).
