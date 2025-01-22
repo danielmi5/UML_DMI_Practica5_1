@@ -10,16 +10,23 @@ Un curso contiene muchos estudiantes. Un estudiante pertenece a un curso.
 b) Elementos de las clases. Tipos y propósito. 
 Atributo:
 Método:
-##### Curso
+#### Curso
 Tiene como atributos:
-- Nombre: Es una cadena y contiene el nombre del curso.
-- Codigo: Es una cadena y contiene el código del curso.
+- nombre: Es una cadena y contiene el nombre del curso.
+- codigo: Es una cadena y contiene el código del curso.
 - estudiantes: Es una lista mutable y contiene los estudiantes que pertenecen a ese curso.
 
 Tiene como métodos:
 - agregarAlumno(estudiante): Se encarga de añadir un estudiante al curso, "estudiante" es un objeto de la clase Estudiante que representa al estudiante.
 - mostrarEstudiantes(): Muestra la lista con los estudiantes
 
+#### Estudiante
+Tiene como atributos:
+- nombre: Es una cadena y contiene el nombre del estudiante.
+- dni: Es una cadena y contiene el DNI del estudiante.
+
+Tiene como métodos:
+- inscribirse(curso): Inscribe al estudiante a dicho curso.
 c) Significado del método agregarAlumno(). Funcionamiento. 
 Este metodo se encarga de añadir a los estudiantes al curso. Mediante un parametro de tipo objeto (de la clase Estudiante), este lo agrega a la lista mutable (estudiantes).
 
