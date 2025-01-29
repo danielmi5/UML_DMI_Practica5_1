@@ -3,14 +3,12 @@
 ### 1.Interpreta el significado del diagrama de clases.
 
 a) Relación entre las clases. Significado, tipo, multiplicidad. 
+Asociación de agregación, ya que los estudiantes pueden existir sin el curso, pero el curso los gestiona.
 
-Un estudiante pertenece a un curso. 
-Asociación de agregación
-Un curso contiene muchos estudiantes. Un estudiante pertenece a un curso.
+Un curso contiene muchos estudiantes. Un estudiante pertenece a un curso. Curso(1..*)Estudiante
 
 b) Elementos de las clases. Tipos y propósito. 
-Atributo:
-Método:
+
 #### Curso
 Tiene como atributos:
 - nombre: Es una cadena y contiene el nombre del curso.
@@ -36,9 +34,7 @@ d) Significado del método inscribirse()
 Este metodo es para inscribir estudiantes a un curso.
 
 ### 2. Generación de código a partir del diagrama. 
-
+**En carpeta src**
 a) Crear clases
-
 b) Crear relaciones
-
 c) Crear main (para probar el sistema).
